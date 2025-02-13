@@ -3,6 +3,10 @@ $left-bg: #3BA7DA;
 $right-bg: #BB4D09;
 $text-align: center;
 
+$icon-width: 30px;  // Set the size of your icons
+$icon-height: 80px;
+$icon-color: #333; // Set the icon color (not used for images but for potential future use)
+
 .container {
   display: flex;
   height: 100vh; // Full viewport height
@@ -12,6 +16,38 @@ $text-align: center;
   flex: 1; // Each side takes up half the space
   padding: 20px;
   text-align: $text-align; // Align text using the variable
+}
+
+.icon-list-left {
+  position: absolute;
+  top: 50%;
+  left: 20px; // Adjust this to change the horizontal position of icons
+  transform: translateY(-50%); // Center vertically
+  display: flex;
+  flex-direction: column;
+  gap: 15px; // Space between icons
+}
+
+.icon-list-left img {
+  width: $icon-width; // Set width (and height for square images)
+  height: $icon-height;
+  cursor: pointer; // Make the images clickable
+}
+
+.icon-list-right {
+  position: absolute;
+  top: 50%;
+  right: 20px; // Adjust this to change the horizontal position of icons
+  transform: translateY(-50%); // Center vertically
+  display: flex;
+  flex-direction: column;
+  gap: 15px; // Space between icons
+}
+
+.icon-list-right img {
+  width: $icon-width; // Set width (and height for square images)
+  height: $icon-height;
+  cursor: pointer; // Make the images clickable
 }
 
 .left {
