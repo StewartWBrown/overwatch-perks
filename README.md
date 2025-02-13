@@ -2,6 +2,8 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.7.
 
+YAPYAPYAP I HAVEN'T MADE ANY FRONT END STUFF BEFORE BUT BORED AND MAYBE THIS IS A USEFUL TOOL THAT CASTERS OR COCASTERS CAN USE IDK I MIGHT STOP 
+
 ## Development server
 
 To start a local development server, run:
