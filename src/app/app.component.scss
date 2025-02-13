@@ -1,0 +1,31 @@
+// Define some variables (optional)
+$left-bg: #3BA7DA;
+$right-bg: #BB4D09;
+$text-align: center;
+
+.container {
+  display: flex;
+  height: 100vh; // Full viewport height
+}
+
+.left, .right {
+  flex: 1; // Each side takes up half the space
+  padding: 20px;
+  text-align: $text-align; // Align text using the variable
+}
+
+.left {
+  background-color: $left-bg;
+}
+
+.right {
+  background-color: $right-bg;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin-top: 10px;
+}
